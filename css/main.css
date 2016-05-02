@@ -13,3 +13,50 @@
 .clearfix:after {
   clear: both;
 }
+
+/* Img de fondo para Home */
+.tigre {
+	background-image: url(../images/slider/bg1.jpg);
+	background-size: 100%;
+}
+/* Utilidades */
+.text-blue { /* color de letra usada en el section */
+	color: rgb(52, 73, 94);
+}
+.text-white { /* para letra en hover del nav */
+	color: white;
+}
+.text-gray { /* texto grisáceo del nav */
+	color: 187, 192, 196;
+}
+.bg-blue { /* Color de fondo header y footer */
+	background: rgb(52, 73, 94);
+}
+.bg-blue-2 { /* color de fondo para hover del nav y final del footer */
+	background: rgb(44, 62, 80);
+}
+.bg-green-lima {
+	background: rgb(46, 204, 113); /* Verde claro del section */
+}
+.bg-green {
+	background: rgb(28, 122, 68); /* Verde oscuro de las RRSS*/
+}
+.bg-coral { 
+	background: rgb(231, 76, 60); /* Fondo coral para section */
+}
+.bg-gray {
+	background: rgb(147, 147, 147); /* Color de fondo para RRSS */
+}
+/* colores de fondo para las redes sociales*/
+.bg-fb { /* Facebook */
+	background: rgb(79, 125, 212);
+}
+.bg-tw { /* Twitter */
+	background: rgb(91, 206, 255);
+} 
+.bg-gl { /* Google+ */
+	background: rgb(220, 66, 43);
+}
+.bg-lin { /* Linked In */
+	background: rgb(33, 166, 216);
+}

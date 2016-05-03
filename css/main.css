@@ -21,15 +21,27 @@
 	background-image: url(../images/slider/bg1.jpg);
 	background-size: 100%;
 }
+/* INICIO DEL MENU RESPONSIVO */
+.navbar-responsivo .navbar-toggle {
+	margin-top: 4%;
+	border: 2px solid rgb(44, 62, 80);
+	color:  #ddd;
+}
+.navbar-responsivo .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-responsivo .navbar-toggle:hover,
+.navbar-responsivo .navbar-toggle:focus {
+  background-color: #0F2D4A;
+}
+/* FIN DEL MENU RESPONSIVO */
 
-<<<<<<< HEAD
 /* Nav Footer */
 .nav-footer a:hover {
 	color: white;
 	background-color: rgb(52, 73, 94);
 }
 
-=======
 .tiger{
 	padding-top: 21%;
 	padding-bottom: 21%;
@@ -49,7 +61,7 @@
 .icone{
 	padding-top: 2%;
 }
->>>>>>> home
+
 /* Utilidades */
 .text-blue { /* color de letra usada en el section */
 	color: rgb(52, 73, 94);
@@ -97,7 +109,7 @@
 .bg-lin { /* Linked In */
 	background: rgb(33, 166, 216);
 }
-<<<<<<< HEAD
+
 .pd-2 {
 	padding: 2%;
 }
@@ -109,9 +121,9 @@
 }
 .list-style-no {
 	list-style: none;
-=======
+}
 
-.fa-2x{
+.fa-2x {
 	margin-top: 57px;
 	margin-left: 24px;
 }
@@ -158,5 +170,4 @@
 .aboutus {
     padding-top: 0%;
     padding-bottom: 8%;
->>>>>>> home
 }

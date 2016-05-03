@@ -18,7 +18,8 @@
 /* Img de fondo para Home */
 .tigre {
 	background-image: url(../images/slider/bg1.jpg);
-	background-size: 100%;
+	background-position: center;
+	background-size: 120%;
 	padding-top: 9%;
 }
 /* Menu responsivo */
@@ -114,6 +115,9 @@
 .pt-pb-15px {
 	padding: 15px 0;
 }
+.pt-15px {
+	padding-top: 15px;
+}
 .pl-0 {
 	padding-left: 0;
 }
@@ -170,4 +174,14 @@
 	border-left: 4px solid rgb(187, 192, 196);;
 	padding-left: 1%;
 	padding-bottom: 3%;
+}
+
+@media (max-width: 750px) {
+	.tigre {
+	background-image: url(../images/slider/bg1.jpg);
+	background-position: center;
+	background-size: 300%;
+	padding: 28% 0;
+	}
+}
 }

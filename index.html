@@ -24,30 +24,37 @@
   </head>
 
   <body>
-
-       <!-- inicio de cabecera  -->
+       <!-- inicio de cabecera CON MENU RESPONSIVO  -->
     <header class="bg-blue">
       <div class="container">
         <div class="row">
-          <div class="col-md-5">
-            <img class="logo" src="images/logo.png">
-            <a class="navbar-brand "></a>
-          </div>
-          <div class="col-md-6 text-white">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="about-us.html">About Us</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="contact-us.html">Contact</a></li>
-            </ul>
-          </div>
-        </div>      
+          <div class="col-md-12">
+            <nav class="navbar navbar-responsivo" role="navigation">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Desplegar navegación</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+              </div>
+              <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="contact-us.html">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>      
+        </div>
       </div>
     </header>
-       <!-- fin de cabecera  -->
-       <!-- inicio del cuerpo -->
     <section class="tigre">
       <div class="container">
         <div class="row">
@@ -57,44 +64,40 @@
           </div>
         </div>
       </div>
-     </section> 
+    </section> 
     <section class="bg-green-lima">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 text-white sectone">
-              <div class="col-md-3">
-                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-              </div>
-              <div class="col-md-9">
-                <h2>Twitter Marketing</h2>
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-              </div>
-            </div>
-
+      <div class="container">
+        <div class="row">
           <div class="col-md-4 text-white sectone">
             <div class="col-md-3">
-                <i class="fa fa-facebook fa-2x icone" aria-hidden="true"></i>
-              </div>
-              <div class="col-md-9">
-                <h2>Facebook Marketing</h2>
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-              </div>
+              <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
             </div>
+            <div class="col-md-9">
+              <h2>Twitter Marketing</h2>
+              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+            </div>
+          </div>
           <div class="col-md-4 text-white sectone">
             <div class="col-md-3">
-                <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
-              </div>
-              <div class="col-md-9">
-                <h2>Google Plus Marketing</h2>
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-              </div>
+              <i class="fa fa-facebook fa-2x icone" aria-hidden="true"></i>
             </div>
+            <div class="col-md-9">
+              <h2>Facebook Marketing</h2>
+              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+            </div>
+          </div>
+          <div class="col-md-4 text-white sectone">
+            <div class="col-md-3">
+              <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-9">
+              <h2>Google Plus Marketing</h2>
+              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-       <!-- fin del cuerpo  -->
-       <!-- inicio del footer  -->
-
     <section class="bg-blue">
       <div class="container">
         <div class="row">
@@ -131,10 +134,11 @@
             </div>
           </div>
         </div>
-      </section>
-
-      <section class="bg-coral">
-        <div class="row">
+      </div>
+    </section>
+    <section class="bg-coral">
+      <div class="row">
+        <div class="container">
           <div class="col-md-12 text-center text-white sectone">
             <h2>What our clients say</h2>
             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
@@ -160,11 +164,8 @@
             <h5>-Someone famous in source Title</h5></div>
           </div>
         </div>
-       </div>
-
+      </div>
     </section>
-
-           <!-- inicio del footer  -->
     <section class="bg-blue text-gray">
       <div class="container pt-pb-15px">
         <div class="row">
@@ -311,7 +312,6 @@
         </div>
       </div>
     </footer>
-           <!-- fin del footer  -->
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>

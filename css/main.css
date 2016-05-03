@@ -20,28 +20,28 @@
 .tigre {
 	background-image: url(../images/slider/bg1.jpg);
 	background-size: 100%;
+	padding-top: 9%;
 }
 
-<<<<<<< HEAD
+
 /* Nav Footer */
 .nav-footer a:hover {
 	color: white;
 	background-color: rgb(52, 73, 94);
 }
 
-=======
 .tiger{
-	padding-top: 21%;
-	padding-bottom: 21%;
+	padding-top: 15%;
+	padding-bottom: 15%;
 }
 
 .sectone{
-	padding-top: 2%;
+	padding-top: 1%;
 	padding-bottom: 2%;
 }
 
 .sectwo{
-	padding-top: 2%;
+	padding-top: 1%;
 	padding-bottom: 2%;
 	padding-left: 3%;
 }
@@ -49,7 +49,7 @@
 .icone{
 	padding-top: 2%;
 }
->>>>>>> home
+
 /* Utilidades */
 .text-blue { /* color de letra usada en el section */
 	color: rgb(52, 73, 94);
@@ -97,7 +97,7 @@
 .bg-lin { /* Linked In */
 	background: rgb(33, 166, 216);
 }
-<<<<<<< HEAD
+
 .pd-2 {
 	padding: 2%;
 }
@@ -109,9 +109,10 @@
 }
 .list-style-no {
 	list-style: none;
-=======
 
-.fa-2x{
+}
+
+.fa-2x {
 	margin-top: 57px;
 	margin-left: 24px;
 }
@@ -127,7 +128,7 @@
 }
 
 .sectone1{
-	padding-top: 10%;
+	padding-top: 3%;;
 }
 
 .social [class*="fa fa-"] {
@@ -149,6 +150,7 @@
 
 .meet-team{
 	padding-top: 5%;
+	
 }
 
 .what{
@@ -158,5 +160,23 @@
 .aboutus {
     padding-top: 0%;
     padding-bottom: 8%;
->>>>>>> home
+
+}
+
+.portafolio{
+	padding-left: 10px;
+	padding-top: 80px;
+}
+
+.bord{
+	border-left: 4px solid #fff;
+	padding-left: 1%;
+	padding-bottom: 3%;
+}
+
+
+.bordone{
+	border-left: 4px solid rgb(187, 192, 196);;
+	padding-left: 1%;
+	padding-bottom: 3%;
 }

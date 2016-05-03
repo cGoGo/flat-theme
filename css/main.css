@@ -15,18 +15,41 @@
   clear: both;
 }
 
+
 /* Img de fondo para Home */
 .tigre {
 	background-image: url(../images/slider/bg1.jpg);
 	background-size: 100%;
 }
 
+<<<<<<< HEAD
 /* Nav Footer */
 .nav-footer a:hover {
 	color: white;
 	background-color: rgb(52, 73, 94);
 }
 
+=======
+.tiger{
+	padding-top: 21%;
+	padding-bottom: 21%;
+}
+
+.sectone{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.sectwo{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 3%;
+}
+
+.icone{
+	padding-top: 2%;
+}
+>>>>>>> home
 /* Utilidades */
 .text-blue { /* color de letra usada en el section */
 	color: rgb(52, 73, 94);
@@ -74,6 +97,7 @@
 .bg-lin { /* Linked In */
 	background: rgb(33, 166, 216);
 }
+<<<<<<< HEAD
 .pd-2 {
 	padding: 2%;
 }
@@ -85,4 +109,54 @@
 }
 .list-style-no {
 	list-style: none;
+=======
+
+.fa-2x{
+	margin-top: 57px;
+	margin-left: 24px;
+}
+
+.logo{
+	margin-top: 12px;
+}
+
+.linked{
+	margin-right: 100px;
+	text-decoration: none;
+	color: white;
+}
+
+.sectone1{
+	padding-top: 10%;
+}
+
+.social [class*="fa fa-"] {
+    background-color: #333;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.info{
+	padding-top: 5%;
+}
+
+.meet-team{
+	padding-top: 5%;
+}
+
+.what{
+	padding-top: 3%;
+}
+
+.aboutus {
+    padding-top: 0%;
+    padding-bottom: 8%;
+>>>>>>> home
 }

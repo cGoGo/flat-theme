@@ -22,6 +22,10 @@
 	background-size: 120%;
 	padding-top: 9%;
 }
+.tiger{
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
 /* Menu responsivo */
 .navbar-responsivo .navbar-toggle {
 	margin-top: 4%;
@@ -41,12 +45,6 @@
 	color: white;
 	background-color: rgb(52, 73, 94);
 }
-
-.tiger{
-	padding-top: 15%;
-	padding-bottom: 15%;
-}
-
 .sectone{
 	padding-top: 1%;
 	padding-bottom: 2%;
@@ -61,7 +59,13 @@
 .icone{
 	padding-top: 2%;
 }
-
+.breadcrumb {
+	background-color: transparent;
+	margin-right: 0;
+}
+textarea {
+	min-height: 200px;
+}
 /* Utilidades */
 .text-blue { /* color de letra usada en el section */
 	color: rgb(52, 73, 94);
@@ -111,6 +115,9 @@
 }
 .pd-2 {
 	padding: 2%;
+}
+.pt-pb-40 {
+	padding: 40% 0;
 }
 .pt-pb-15px {
 	padding: 15px 0;

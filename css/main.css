@@ -97,7 +97,7 @@ textarea, .mapa {
 .meet-team{
 	padding-top: 5%;
 }
-.what{
+.what,, article p {
 	padding-top: 3%;
 }
 .aboutus {
@@ -117,6 +117,15 @@ textarea, .mapa {
 	border-left: 4px solid rgb(187, 192, 196);;
 	padding-left: 1%;
 	padding-bottom: 3%;
+}
+.ico-blog {
+	font-size: 0.8em;
+}
+.ico-blog span {
+	margin: 0 1%;
+}
+.img-blog {
+	width: 100%;
 }
 
 /* Utilidades */
@@ -156,6 +165,9 @@ textarea, .mapa {
 .bg-gray2 {
 	background: rgb(245, 245, 245);
 }
+.bg-white {
+	background: white;
+}
 /* colores de fondo para las redes sociales*/
 .bg-fb { /* Facebook */
 	background: rgb(79, 125, 212);
@@ -187,10 +199,15 @@ textarea, .mapa {
 .pl-0 {
 	padding-left: 0;
 }
+.pl-2 {
+	padding-left: 2%;
+}
+.mt-2 {
+	margin-top: 2%;
+}
 .list-style-no {
 	list-style: none;
 }
-
 
 @media (max-width: 750px) {
 	.tigre {

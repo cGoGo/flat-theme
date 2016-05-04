@@ -124,7 +124,7 @@ textarea, .mapa {
 .ico-blog span {
 	margin: 0 1%;
 }
-.img-blog {
+.img-blog, .w-100 {
 	width: 100%;
 }
 
@@ -202,8 +202,14 @@ textarea, .mapa {
 .pl-2 {
 	padding-left: 2%;
 }
+.pl-4 {
+	padding-left: 8%;
+}
 .mt-2 {
 	margin-top: 2%;
+}
+.mg-0 {
+	margin: 0 auto;
 }
 .list-style-no {
 	list-style: none;

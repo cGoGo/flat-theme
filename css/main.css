@@ -63,7 +63,7 @@
 	background-color: transparent;
 	margin-right: 0;
 }
-textarea, .mapa {
+.mapa {
 	min-height: 200px;
 	max-width: 95%;
 }
